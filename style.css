@@ -231,14 +231,34 @@
         height: 400px;
         box-shadow: 10px 10px 10px gray;
         margin-bottom: 40px;
+        
     }
     .cards-container{
         display: flex;
         justify-content: center;
-        gap: 50px;   
+        gap: 50px; 
+        align-items: center;  
     }
     .blog{
         text-align: center;
+    }
+
+    .card-title{
+        font-size: 50px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .border-description{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .footer-container{
+        background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0,0, 0, 0.9),rgba(0, 0, 0, 0.9));
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: content;
+        height: 70vh;
+        color: white;
     }
 
 
