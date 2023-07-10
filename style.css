@@ -219,6 +219,27 @@
     .cell-phn h6{
         border-right: 2px solid blue;
     }
+    .card-img{
+        
+        width: 100%;
+        
+    }
+    .cards{
+        
+        border-radius: 30px;
+        width: 320px;
+        height: 400px;
+        box-shadow: 10px 10px 10px gray;
+        margin-bottom: 40px;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        gap: 50px;   
+    }
+    .blog{
+        text-align: center;
+    }
 
 
 
