@@ -65,9 +65,7 @@
     font-size: 15px;
     margin-left: 10px;
 }
-.service-container{
-    background-color: black;
-}
+
 .service-list{
     padding-top: 100px;
     
@@ -106,7 +104,7 @@
 .service-details-container{
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 
 }
 .pic{
@@ -122,6 +120,8 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 30px;
 }
 .details h2{
     font-size: 18px;
@@ -137,3 +137,89 @@
     padding: 10px 20px;
     border-radius: 30px;
 }
+.service-container{
+    display: flex;
+    background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0,0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: content;
+    height: 100vh;
+}
+.catagory-part-1{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    
+}
+    
+.img{
+    width:100px;
+    height:80px;
+    padding: 50px 40px 0px 90px;;    
+}
+.catagory-box{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+.right-side{
+    display: block;
+    align-items: center;
+}
+.catagory-part-2{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    
+    
+    
+}
+.catagory-title{
+    margin: 30px 20px 30px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+    .service-catagory-container{
+        padding-bottom: 100px;
+        padding-top: 20px;
+        
+    
+        
+
+    }
+    .cell-phn{
+        display: flex;
+        align-items: center;
+        border-right: 2px;
+    }
+    .apointment-container{
+        background-color: rgb(245, 62, 62);
+        margin-top: -30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: -40px;
+        gap: 20px;
+        
+
+
+    }
+    .cell-phn h6{
+        border-right: 2px solid blue;
+    }
+
+
+
+
