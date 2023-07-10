@@ -23,7 +23,7 @@
 }
 
 .banner-container{
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0,0, 0, 0.4),rgba(0, 0, 0, 0.1));
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0,0, 0, 0.4),rgba(0, 0, 0, 0.1));
     background-blend-mode: overlay;
     background-position: center;
     background-size: content;
@@ -253,12 +253,35 @@
         margin-bottom: 40px;
     }
     .footer-container{
-        background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0,0, 0, 0.9),rgba(0, 0, 0, 0.9));
+        background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0,0, 0, 1),rgba(0, 0, 0, 0.9));
         background-blend-mode: overlay;
         background-position: center;
         background-size: content;
         height: 70vh;
         color: white;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        align-items: center;
+    }
+    .title{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .logo-description{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+
+    }
+    .footer-text ul{
+        list-style: none;
+    }
+    .copy-right{
+        width: 30%;
+        margin: auto;
     }
 
 
